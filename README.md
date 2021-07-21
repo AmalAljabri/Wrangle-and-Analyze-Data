@@ -22,23 +22,23 @@ The data used was gathered from three different sources:
 After gathering each of the above pieces of data, I assessed them visually and 
 programmatically for quality and tidiness issues.
 1. Tidiness Issues
--- doggo, floofer, pepper, and puppo columns should be one column 
-(merge columns).
--- twitter_archive, image_predictions, and tweet_data Dataframes 
-should be part of one Dataframe (merge dataframes).
+• doggo, floofer, pepper, and puppo columns should be one column 
+(merge columns).<br/>
+• twitter_archive, image_predictions, and tweet_data Dataframes 
+should be part of one Dataframe (merge dataframes).<br/>
 2. Quality Issues 
-• Delete retweets by filtering the NaN of retweeted_status_user_id.
+• Delete retweets by filtering the NaN of retweeted_status_user_id.<br/>
 • Delete in_reply_to_status_id, retweeted_status_id, in_reply_to_user_id 
-retweeted_status_user_id, retweeted_status_timestamp columns.
-• Correcting data type in tweet_id (from int into string).
-• Correcting data type in timestamp (from string into datetime).
-• Delete rows with jpg_url have missing.
+retweeted_status_user_id, retweeted_status_timestamp columns.<br/>
+• Correcting data type in tweet_id (from int into string).<br/>
+• Correcting data type in timestamp (from string into datetime).<br/>
+• Delete rows with jpg_url have missing.<br/>
 • Create 1 column for dog image prediction and 1 column for dog 
-image prediction confidence.
+image prediction confidence.<br/>
 • Delete p1, p1_conf, p1_dog, p2, p2_conf, p2_dog, p3, p3_conf, p3_dog, 
-img_num columns.
+img_num columns.<br/>
 • Convert underscore to space and convert lowercase to uppercase in 
-prediction_dog.
+prediction_dog.<br/>
 
 - Cleaning data 
 The previous issues I cleaned as appropriate resulting in high quality and tidy 
