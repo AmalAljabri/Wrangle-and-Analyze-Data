@@ -21,12 +21,12 @@ The data used was gathered from three different sources:
 - Assessing data 
 After gathering each of the above pieces of data, I assessed them visually and 
 programmatically for quality and tidiness issues.
-1. Tidiness Issues
+1. Tidiness Issues<br/>
 • doggo, floofer, pepper, and puppo columns should be one column 
 (merge columns).<br/>
 • twitter_archive, image_predictions, and tweet_data Dataframes 
 should be part of one Dataframe (merge dataframes).<br/>
-2. Quality Issues 
+2. Quality Issues <br/>
 • Delete retweets by filtering the NaN of retweeted_status_user_id.<br/>
 • Delete in_reply_to_status_id, retweeted_status_id, in_reply_to_user_id 
 retweeted_status_user_id, retweeted_status_timestamp columns.<br/>
