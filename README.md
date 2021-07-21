@@ -47,7 +47,7 @@ master pandas DataFrame.
 - Storing Data 
 The cleaned dataset was stored in a CSV file named twitter_archive_master.csv.
 
-- Analyzing and Visualizing Data
+- Analyzing and Visualizing Data<br/>
 The cleaned dataset was analyzed and insights regarding the following I conclude:<br/>
 • The top ten of the most prediction dog type.<br/>
 •	The percentage of different dog stages.<br/>
