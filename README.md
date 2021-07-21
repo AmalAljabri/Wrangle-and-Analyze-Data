@@ -12,13 +12,13 @@ followers and has received international media coverage.
 
 # Data Wrangling
 Data wrangling, which consists of: 
-- Gathering data 
+- Gathering Data
 The data used was gathered from three different sources:
 1. Enhanced Twitter Archive dataset was a file on hand. The file was stored in the CSV file.
 2. Image Predictions File dataset was retrieved from Udacity’s servers through the Requests library. The file was stored in the TSV file.
 3. Data via the Twitter API dataset was retrieved from Tweeter’s API call, using the Tweepy library. Retrieved data was stored in JSON format.
 
-- Assessing data 
+- Assessing Data
 After gathering each of the above pieces of data, I assessed them visually and 
 programmatically for quality and tidiness issues.
 1. Tidiness Issues<br/>
@@ -40,6 +40,15 @@ img_num columns.<br/>
 • Convert underscore to space and convert lowercase to uppercase in 
 prediction_dog.<br/>
 
-- Cleaning data 
+- Cleaning Data
 The previous issues I cleaned as appropriate resulting in high quality and tidy 
 master pandas DataFrame.
+
+- Storing Data 
+The cleaned dataset was stored in a CSV file named twitter_archive_master.csv.
+
+- Analyzing and Visualizing Data
+The cleaned dataset was analyzed and insights regarding the following I conclude:<br/>
+• The top ten of the most prediction dog type.<br/>
+•	The percentage of different dog stages.<br/>
+• Relationship between favorite count and retweet count.<br/>
